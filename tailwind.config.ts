@@ -19,8 +19,11 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'serif': ['Cormorant', 'serif'],
-				'sans': ['Source Sans Pro', 'sans-serif'],
+				'display': ['Inter', 'system-ui', 'sans-serif'],
+				'body': ['Inter', 'system-ui', 'sans-serif'],
+			},
+			backdropBlur: {
+				'xs': '2px',
 			},
 			colors: {
 				border: 'hsl(var(--border))',
